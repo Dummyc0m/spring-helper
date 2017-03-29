@@ -17,12 +17,15 @@
         <version>Brixton.RELEASE</version>
     </parent>
 
-    <distributionManagement>
+     <distributionManagement>
         <repository>
-            <id>snapshotRepo</id>
-            <name>nexus.dummyc0m.com</name>
-            <url>https://nexus.dummyc0m.com/repository/maven-snapshots/</url>
+            <id>codetectorRepo</id>
+            <url>http://nexus.codetector.cn/repository/codetector/</url>
         </repository>
+        <snapshotRepository>
+            <id>codetectorRepo</id>
+            <url>http://nexus.codetector.cn/repository/codetector-staging/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <repositories>
