@@ -17,6 +17,14 @@
         <version>Brixton.RELEASE</version>
     </parent>
 
+    <distributionManagement>
+        <repository>
+            <id>snapshotRepo</id>
+            <name>nexus.dummyc0m.com</name>
+            <url>https://nexus.dummyc0m.com/repository/maven-snapshots/</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spring-milestones</id>
