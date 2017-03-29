@@ -18,11 +18,17 @@
     </parent>
 
     <distributionManagement>
+        <site></site>
         <repository>
+            <id>releaseRepo</id>
+            <name>nexus.dummyc0m.com</name>
+            <url>https://nexus.dummyc0m.com/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
             <id>snapshotRepo</id>
             <name>nexus.dummyc0m.com</name>
             <url>https://nexus.dummyc0m.com/repository/maven-snapshots/</url>
-        </repository>
+        </snapshotRepository>
     </distributionManagement>
 
     <repositories>
